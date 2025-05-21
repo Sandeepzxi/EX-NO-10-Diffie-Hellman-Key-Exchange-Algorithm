@@ -49,6 +49,10 @@ return 0;
 ```
 ## Output:
 ![image](https://github.com/user-attachments/assets/c42df7f0-0638-4bb5-8b96-a86045340237)
+
+
+
+
 ## Result:
   The program is executed successfully
 
