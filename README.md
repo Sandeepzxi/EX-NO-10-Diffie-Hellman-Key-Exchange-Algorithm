@@ -1,10 +1,7 @@
 # EX-NO-10-Diffie-Hellman-Key-Exchange-Algorithm
-
 ## AIM:
 To Implement Diffie Hellman Key Exchange Algorithm 
-
 ## Algorithm:
-
 1. Diffie-Hellman Key Exchange is used for securely sharing a secret key between two parties over an insecure channel.
 
 2. Initialization: Agree on a large prime number \( p \) and a primitive root \( g \) modulo \( p \) (both are public values).
@@ -17,9 +14,7 @@ To Implement Diffie Hellman Key Exchange Algorithm
    - Each party computes the shared secret key using the received public key and their own private key.
 
 5. Security: The difficulty of computing discrete logarithms ensures that the shared key remains secure even if public values are intercepted.
-
 ## Program:
-
 ```
 #include <math.h> 
 #include <stdio.h>
@@ -52,12 +47,8 @@ printf("Secret Key for the Bob is : %lld\n", kb);
 return 0;
 }
 ```
-
 ## Output:
-
 ![image](https://github.com/user-attachments/assets/c42df7f0-0638-4bb5-8b96-a86045340237)
-
-
 ## Result:
   The program is executed successfully
 
